@@ -161,7 +161,7 @@ def save_model(
     compression_ratio: float,
     output_path: str
 ):
-    """Save the trained model to JSON file."""
+    """Save the trained model to the JSON file."""
     # Convert vocab_map to serializable format
     vocab_serializable = {
         str(k): list(v) for k, v in vocab_map.items()
