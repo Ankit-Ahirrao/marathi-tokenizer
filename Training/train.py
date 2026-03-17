@@ -195,7 +195,7 @@ def main():
         print(f"Corpus file not found at {corpus_path}")
         return
     
-    print("Reading corpus...")
+    print("Reading corpus.....")
 
     merges, vocub_map, vocub_size, compression_ratio = process_corpus(
         corpus_path=corpus_path, target_vocab_size=1000)
